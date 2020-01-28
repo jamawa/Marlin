@@ -1,0 +1,2 @@
+3D printer to do:
+- FILAMENT_RUNOUT_SENSOR staat aan, nog niet getest. Ook iets doen voor extruder 2?
