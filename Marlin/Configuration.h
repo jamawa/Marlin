@@ -311,7 +311,7 @@
 // For the other hotends it is their distance from the extruder 0 hotend.
 #define HOTEND_OFFSET_X { 0.0, 18.00 } // (mm) relative X-offset for each nozzle
 #define HOTEND_OFFSET_Y { 0.0, 0.00 }  // (mm) relative Y-offset for each nozzle
-#define HOTEND_OFFSET_Z { 0.0, -0.05 }  // (mm) relative Z-offset for each nozzle
+#define HOTEND_OFFSET_Z { 0.0, 0.0 }   // (mm) relative Z-offset for each nozzle
 
 // @section machine
 
@@ -950,7 +950,7 @@
  */
 #define JMW_BLTOUCH_NOZZLE_X_OFFSET 46.5
 #define JMW_BLTOUCH_MIN_REACHABLE_X X_MIN_POS + JMW_BLTOUCH_NOZZLE_X_OFFSET /* JMW: stay clear from the home switch */
-#define NOZZLE_TO_PROBE_OFFSET { JMW_BLTOUCH_NOZZLE_X_OFFSET, 0, -2.65 }
+#define NOZZLE_TO_PROBE_OFFSET { JMW_BLTOUCH_NOZZLE_X_OFFSET, 0, -2.60 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
