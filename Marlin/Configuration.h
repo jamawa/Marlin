@@ -134,7 +134,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "P802QR2 v1.00"
+#define CUSTOM_MACHINE_NAME "P802QR2 v1.10"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
@@ -1097,7 +1097,6 @@
 #define Y_BED_SIZE JMW_GLASS_DEPTH - JMW_GLASS_CLIP_OVERLAP_FRONT - JMW_GLASS_CLIP_OVERLAP_BACK
 
 // Travel limits (mm) after homing, corresponding to end-stop positions.
-// TODO JMW
 #define X_MIN_POS - 21
 #define Y_MIN_POS - 14 - JMW_GLASS_CLIP_OVERLAP_FRONT
 #define Z_MIN_POS 0
